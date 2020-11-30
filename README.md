@@ -1,4 +1,4 @@
-# Lesson1
-Data Science Nanodgree - Lesson1
+# Newark Airport Airline Performance
 
-This is where I will publish my final submission for Lesson 1.
+
+## This is where I will publish my final submission for Lesson 1.
