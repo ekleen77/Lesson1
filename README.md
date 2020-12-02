@@ -24,7 +24,9 @@ For this project, I downloaded airline flight data from the U.S. Dept of Transpo
 - The rows with missing data all correspond to cancelled flights, but not all cancelled flights have missing data.
 - The airline lookup table contains one missing value for "Code" which is required.  In this case, Python interpreted the code "NA" to mean NULL while importing the data.
 
-### 3. Preparing the Data <br>- Importing the Data
+### 3. Preparing the Data
+#### 3.1 Importing the Data
+In order to ensure the data types were consistent, I specified string or integer types for categorical variables and float for numeric variables.  I also specified a row-level filter to only read rows with an Origin or Destination of EWR.  
 
 
 ### 4. Creating the Model
