@@ -10,4 +10,16 @@ For this project, I downloaded airline flight data from the U.S. Dept of Transpo
   - source data profile containing a description of each field in the monthly data files
 
 ## CRISP-DM Process
-### 1) Understanding the Data
+### 1. Business Understanding
+
+### 2. Data Understanding
+
+### 3. Data Preparation
+
+### 4. Modeling
+
+### 5. Evaluation
+
+### 6. Deployment
+
+## Conclusions
