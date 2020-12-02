@@ -18,9 +18,13 @@ For this project, I downloaded airline flight data from the U.S. Dept of Transpo
 - Is there monthly/weekly/daily seasonality?
 
 ### 2. Data Understanding
-#### 
+#### In order to understand the data, I first reviewed the source data profile Excel file which contains a description and type for each column in order to gain an understanding of which columns I would need to import.  I then explored the data by reading it into a DataFrame object and reviewing which columns had missing values and what data types were contained. Here are my findings during this exercise.
+- The following fields have missing data: "Tail_Num", "Dep_Time", "Dep_Delay", "Arr_Time", "Arr_Delay"
+- The rows with missing data all correspond to cancelled flights, but not all cancelled flights have missing data.
+- The airline lookup table contains one missing value for "Code" which is required.  In this case, Python interpreted the code "NA" to mean NULL while importing the data.
 
 ### 3. Data Preparation
+
 
 ### 4. Modeling
 
