@@ -55,4 +55,4 @@ For this exercise, "deploying the model" meant using it on my upcoming flight to
 The detailed analysis and conclusions are summarized in my blog post at https://eric-kleen.medium.com/will-we-ever-get-there-7979244e9d8e.
 
 ## Acknowledgments
-For this project, I downloaded airline flight data from the U.S. Dept of Transportation's Bureau of Transportation Statistics website (https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=237).
+All data for this project was downloaded from the U.S. Dept of Transportation's Bureau of Transportation Statistics website (https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=237).
