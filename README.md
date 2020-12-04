@@ -3,6 +3,11 @@
 ## System Requirements
 This Jupyter Notebook uses Python 3 with the following libraries: pandas, os, matplotlib, and sklearn.
 
+## File Description
+- README.md -> This file contains a detailed description of the operations followed to complete this project.
+- Airline Performance_v2.ipynb -> This file contains the Python code and descriptions used to evaluate the data and construct the classifier model.
+- Airline Performance Data File.zip -> This zip file contains the 12 monthly flight data files, airline lookup table, and the source data profile file.
+
 ## Overview
 This repository contains the necessary files for my Udacity Data Scientist Lesson 1 submission.  The objective for this project was to utilize the CRISP-DM process to understand, analyze, and model a selected dataset.  Because it is the holiday season and there is typically a lot of travel during this time of year, I wanted to analyze the performance of air travel into and out of Newark Liberty Airport.  Ultimately, I wanted to develop a binary classification model which would determine he probability of a flight being delayed/cancelled based on historical data.  The Jupyter Notebook file in this repository contains the Python code used for this analysis.  
 
