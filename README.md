@@ -1,5 +1,8 @@
 # Newark Airport Airline Performance
 
+## System Requirements
+This Jupyter Notebook uses Python 3 with the following libraries: pandas, os, matplotlib, and sklearn.
+
 ## Overview
 This repository contains the necessary files for my Udacity Data Scientist Lesson 1 submission.  The objective for this project was to utilize the CRISP-DM process to understand, analyze, and model a selected dataset.  Because it is the holiday season and there is typically a lot of travel during this time of year, I wanted to analyze the performance of air travel into and out of Newark Liberty Airport.  Ultimately, I wanted to develop a binary classification model which would determine he probability of a flight being delayed/cancelled based on historical data.  The Jupyter Notebook file in this repository contains the Python code used for this analysis.  
 
