@@ -1,12 +1,12 @@
 # Newark Airport Airline Performance
 
-## System Requirements
-This Jupyter Notebook uses Python 3 with the following libraries: pandas, os, matplotlib, and sklearn.
-
 ## File Description
 - README.md -> This file contains a detailed description of the operations followed to complete this project.
 - Airline Performance_v2.ipynb -> This file contains the Python code and descriptions used to evaluate the data and construct the classifier model.
 - Airline Performance Data File.zip -> This zip file contains the 12 monthly flight data files, airline lookup table, and the source data profile file.
+
+## System Requirements
+The Jupyter Notebook requires Python 3 with the following libraries: pandas, os, matplotlib, and sklearn.
 
 ## Overview
 This repository contains the necessary files for my Udacity Data Scientist Lesson 1 submission.  The objective for this project was to utilize the CRISP-DM process to understand, analyze, and model a selected dataset.  Because it is the holiday season and there is typically a lot of travel during this time of year, I wanted to analyze the performance of air travel into and out of Newark Liberty Airport.  Ultimately, I wanted to develop a binary classification model which would determine he probability of a flight being delayed/cancelled based on historical data.  The Jupyter Notebook file in this repository contains the Python code used for this analysis.  
@@ -58,4 +58,4 @@ To evaluate the model, I ran a simple test using the "Score" method of the model
 For this exercise, "deploying the model" meant using it on my upcoming flight to determine the liklihood that it would be delayed.  My flight was scheduled for 11/24 at 2:30 PM on United Airlines.  Using these values, I created a new dataset, encoded the features, and used the model's "predict" and "predict_proba" methods to determine the likely outcome and the probability of that outcome.  I was very please to learn that my flight was predicted to be "On Time" with a 79% confidence.
 
 ## Conclusions
-I found this exercise to be a great way to learn the CRISP-DM process.  I think most data analysts do these steps often without really thinking about the fact that it is a process.  I really enjoyed the Exploration phase and just looking at the data different ways to see if it "told" me anything.  I found that this step is crucial to good feature choices.  I also really enjoyed constructing and deploying the model, although, with only 160K rows of data and ony 1 calendar year of flights, this model is quite limited.  However, the initial results are encouraging.  With more time, I would like to explore other possible features such as "Destination" and "Holidays" and "Distance of Previous Leg by Tail Number".  I think these would enhance the model's ability to predict.  I would also like to try other algorithms to see which performs better.  I think this exercise was a great into to building a machine learning model and I am excited about the rest of the course.
+The detailed analysis and conclusions are summarized in my blog post at https://eric-kleen.medium.com/will-we-ever-get-there-7979244e9d8e.
